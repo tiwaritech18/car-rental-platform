@@ -1,0 +1,29 @@
+.choose-section {
+  background-color: white;
+  padding: 2rem 0 10rem 0;
+  background-image: url("/src/images/chooseUs/bg.png");
+  background-position: -225px 255px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.choose-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.choose-container__img {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+}
+
+#chooseus__img{
+  width: 6rem;
+object-fit: contain;
+}
+@media (max-width: 550px) {
+  .choose-container__img {
+    width: 100%;
+  }
+}

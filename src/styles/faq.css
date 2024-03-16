@@ -1,0 +1,130 @@
+
+.faq-section {
+  position: relative;
+}
+
+.faq-section {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Adjust the alpha value as needed */
+  pointer-events: none; /* Ensure that the overlay doesn't capture mouse events */
+}
+
+.faq-section {
+  background-image: url("/src/images/faq/car.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+.faq-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.faq-content__title {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 80rem;
+  line-height: 1.5;
+}
+
+.faq-content__title h5 {
+  font-size: 2.2rem;
+}
+
+.faq-content__title h2 {
+  font-size: 4.2rem;
+  margin-bottom: 1.7rem;
+}
+
+.faq-content__title p {
+  font-size: 1.6rem;
+  color: #d2d2d2;
+}
+
+.all-questions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 7rem;
+}
+
+.faq-box {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  width: 80rem;
+  cursor: pointer;
+}
+
+@media (max-width: 850px) {
+  .faq-box {
+    width: 100%;
+  }
+}
+
+.faq-box__question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.8rem 4.5rem;
+  transition: 0.15s ease;
+}
+
+.faq-box__question p {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.faq-box__question i {
+  font-size: 1.2rem;
+}
+
+.faq-box__answer {
+  font-size: 1.4rem;
+
+  color: #b4b4b4;
+  line-height: 1.7;
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.4s ease;
+  padding: 0 4.5rem;
+}
+
+.active-answer {
+  max-height: 20rem;
+  padding: 2.8rem 4.5rem;
+  transition: 0.4s ease;
+}
+
+@media (max-width: 550px) {
+  .active-answer {
+    max-height: 30rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .active-answer {
+    max-height: 55rem;
+  }
+}
+
+.active-question {
+  border-bottom: 1px solid white;
+  color: white;
+  box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.35);
+}
