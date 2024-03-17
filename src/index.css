@@ -306,7 +306,7 @@ a{
   left: 50%;
   transform: translate(-50%, -50%);
   width: 83rem;
-  height: 100vh;
+  height: 100svh;
   border: 2px solid white;
   background-color: rgb(255, 255, 255);
   padding-right: 2px;
