@@ -7,6 +7,7 @@ import ChooseUs from "../components/ChooseUs";
 import Faq from "../components/Faq";
 import Download from "../components/Download";
 import Footer from "../components/Footer";
+import Testimonials from "../components/Testimonials";
 
 function Home() {
   return (
@@ -15,6 +16,7 @@ function Home() {
       <BookCar />
       <PlanTrip />
       <PickCar />
+      <Testimonials/>
       <Banner />
       <ChooseUs />
       <Faq />

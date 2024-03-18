@@ -7,6 +7,7 @@ import Box1 from "../images/about/icon1.png";
 import Box2 from "../images/about/icon2.png";
 import Box3 from "../images/about/icon3.png";
 import "../styles/aboutPage.css"
+import Banner from "../components/Banner";
 
 function About() {
   return (
@@ -58,18 +59,7 @@ function About() {
           <PlanTrip />
         </div>
       </section>
-      <div className="book-banner">
-        <div className="book-banner__overlay"></div>
-        <div className="container">
-          <div className="text-content">
-            <h2>Book a car by getting in touch with us</h2>
-            <span>
-              <IconPhone width={40} height={40} />
-              <h3>(123) 456-7869</h3>
-            </span>
-          </div>
-        </div>
-      </div>
+     <Banner/>
       <Footer />
     </>
   );

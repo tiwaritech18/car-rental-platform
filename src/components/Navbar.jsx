@@ -30,6 +30,7 @@ const navLinks = [
     path:"/contact",
     title:"Contact"
   },
+
 ]
 function Navbar() {
   const [nav, setNav] = useState(false);
@@ -76,10 +77,10 @@ function Navbar() {
           </ul>
           <div className="navbar__buttons">
 
-            <Link className="navbar__buttons__sign-in" to="/">
+            <Link className="navbar__buttons__sign-in" to="/auth">
               Sign In
             </Link>
-            <Link className="navbar__buttons__register" to="/">
+            <Link className="navbar__buttons__register" to="/auth">
               Register
             </Link>
           </div>

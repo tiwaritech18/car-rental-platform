@@ -3,6 +3,7 @@ import Footer from "../components/Footer";
 import HeroPages from "../components/HeroPages";
 import { IconLocation } from "@tabler/icons-react";
 import "../styles/contactPage.css"
+import Banner from "../components/Banner";
 
 function Contact() {
   return (
@@ -54,18 +55,7 @@ function Contact() {
             </div>
           </div>
         </div>
-        <div className="book-banner">
-          <div className="book-banner__overlay"></div>
-          <div className="container">
-            <div className="text-content">
-              <h2>Book a car by getting in touch with us</h2>
-              <span>
-                <IconPhone width={40} height={40} />
-                <h3>(123) 456-7869</h3>
-              </span>
-            </div>
-          </div>
-        </div>
+       <Banner/>
         <Footer />
       </section>
     </>
